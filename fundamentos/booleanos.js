@@ -28,7 +28,7 @@ console.log(!!undefined)//undefined retorna falso.
 console.log(!!(isAtivo = false))
 
 console.log('...para finalizar')
-console.log(!!(null || "" || NaN || ' '))// Or tend o uma condição verdadeira toda a frase é verdadeira.
+console.log(!!(null || "" || NaN || ' '))// Or tendo uma condição verdadeira toda a frase é verdadeira.
 console.log((null || "" || NaN || 3 ||'Opa'))//Retorna o único/primeiro valor verdadeiro da condição, nesse caso o OPA.
 
 let nome = ''
