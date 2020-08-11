@@ -13,3 +13,14 @@ falando() // Vai gerer um UNDEFINED
 //Uma forma de resolver essa situação é chamando o obejto dentro do BIND
 const falar = pessoa.falar.bind(pessoa)
 falar() // O resultado da função bind foi armazenado na constante.
+
+
+const homem = {
+    genero: 'Masculino',
+    cidade() {
+        console.log(this.genero)
+    }
+}
+
+const pessoas = homem.cidade.bind(homem)
+pessoas()
